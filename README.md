@@ -34,11 +34,13 @@ De otro lado, se suministran los archivos [parking_client.py](parking_client.py)
 
 También es necesario instalar módulos adicionales para el manejo de los códigos QR mediante los siguientes comandos:
 
-```  pip install pycryptodome ```
-```  pip install pyqrcode ```
-```  pip install pypng ```
-```  pip install pyzbar ```
-```  pip install pillow ```
+```
+pip install pycryptodome
+pip install pyqrcode
+pip install pypng
+pip install pyzbar
+pip install pillow
+```
 
 ## ¿Cómo realizar las pruebas?
 
@@ -51,7 +53,7 @@ Tenga en cuenta que es posible que [parking_server.py](parking_server.py) y [tes
 <img  src="Captura de pantalla (2).png" width="800" >
 </p>
 
-La IP encontrada debe sustituir "localhost" en la línea 6 de [test_parking_client.py](https://github.com/parrado/lab2/blob/c80a0f73b9324b082ebea63a3377358d36a4c8d8/test_trivia_client.py#L6)
+La IP encontrada debe sustituir "localhost" en la línea 6 de [test_parking_client.py](https://github.com/parrado/lab2/blob/c80a0f73b9324b082ebea63a3377358d36a4c8d8/test_trivia_client.py#L6#L6)
 
 # Entrega del laboratorio
 
