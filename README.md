@@ -26,9 +26,9 @@ El servidor permite registrar usuarios con un número de identificación y una c
 * Solicitar un código QR que ser usado como medio de acceso al parqueadero.
 * Enviar un código QR para determinar si existe un puesto de parqueadero disponible según el rol del usuario.
 
-El código para la generación y encriptación de los códigos QR se incluye en el archivo [users.py](users.py), por lo que es importante que se analice y se comprenda su funcionamiento.
+El código para la generación y encriptación de los códigos QR se incluye en el archivo [users.py](users.py), por lo que es importante que se analice y se comprenda su funcionamiento. Además, se debe incluir en el archivo [users.py](users.py) el algoritmo para detección de puestos de parqueadero elaborado en el lab1.
 
-También, se suministran los archivos [parking_client.py](parking_client.py) y [test_parking_client.py](test_parking_client.py). En este caso, [parking_client.py](parking_client.py) implementa la funcionalidad básica de los usuarios para la conexión con el servidor por lo que **no debe ser modificado bajo ninguna circunstancia**. De otro lado, [test_parking_client.py](test_parking_client.py) es un archivo de prueba que se suministra para verificar el correcto funcionamiento del servidor y que puede ser modificado a gusto de los miembros del equipo. Para que [parking_client.py](parking_client.py) pueda funcionar correctamente se debe instalar el módulo de Python requests ejecutando el siguiente comando en una terminal:
+De otro lado, se suministran los archivos [parking_client.py](parking_client.py) y [test_parking_client.py](test_parking_client.py). En este caso, [parking_client.py](parking_client.py) implementa la funcionalidad básica de los usuarios para la conexión con el servidor por lo que **no debe ser modificado bajo ninguna circunstancia**. De otro lado, [test_parking_client.py](test_parking_client.py) es un archivo de prueba que se suministra para verificar el correcto funcionamiento del servidor y que puede ser modificado a gusto de los miembros del equipo. Para que [parking_client.py](parking_client.py) pueda funcionar correctamente se debe instalar el módulo de Python requests ejecutando el siguiente comando en una terminal:
 
 ``` pip install requests ```
 
@@ -42,16 +42,16 @@ También es necesario instalar módulos adicionales para el manejo de los códig
 
 ## ¿Cómo realizar las pruebas?
 
-Para la realización de las pruebas debe ejecutar primero el programa [trivia_server.py](trivia_server.py), la recomendación es verificar el correcto funcionamiento de las funciones, una a la vez. Posteriormente se puede ejecutar el programa [test_trivia_client.py](test_trivia_client.py), en caso de que se creen ventanas emergentes de Windows solicitando permisos, por favor otorgarlos ya que los programas hacen uso de los servicios de red. 
+Para la realización de las pruebas debe ejecutar primero el programa [parking_server.py](parking_server.py), la recomendación es verificar el correcto funcionamiento de las funciones, una a la vez. Posteriormente se puede ejecutar el programa [test_parking_client.py](test_parking_client.py), en caso de que se creen ventanas emergentes de Windows solicitando permisos, por favor otorgarlos ya que los programas hacen uso de los servicios de red. 
 
-Tenga en cuenta que es posible que [trivia_server.py](trivia_server.py) y [test_trivia_client.py](test_trivia_client.py) se ejecuten en computadores diferentes siempre y cuando los equipos se encuentren conectados a la misma red LAN cableada o inalámbrica. En ese caso basta con consultar la dirección IP del computador que está ejecutando [trivia_server.py](trivia_server.py) mediante el comando ipconfig como se muestra en la siguiente figura.
+Tenga en cuenta que es posible que [parking_server.py](parking_server.py) y [test_parking_client.py](test_parking_client.py) se ejecuten en computadores diferentes siempre y cuando los equipos se encuentren conectados a la misma red LAN cableada o inalámbrica. En ese caso basta con consultar la dirección IP del computador que está ejecutando [parking_server.py](parking_server.py) mediante el comando ipconfig como se muestra en la siguiente figura.
 
 
 <p align="center">
 <img  src="Captura de pantalla (2).png" width="800" >
 </p>
 
-La IP encontrada debe sustituir "localhost" en la línea 6 de [test_trivia_client.py](https://github.com/parrado/lab2/blob/c80a0f73b9324b082ebea63a3377358d36a4c8d8/test_trivia_client.py#L6)
+La IP encontrada debe sustituir "localhost" en la línea 6 de [test_parking_client.py](https://github.com/parrado/lab2/blob/c80a0f73b9324b082ebea63a3377358d36a4c8d8/test_trivia_client.py#L6)
 
 # Entrega del laboratorio
 
