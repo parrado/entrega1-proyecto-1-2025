@@ -23,10 +23,10 @@ En ese sentido, el archivo [parking_server.py](parking_server.py) usa el archivo
 
 El servidor permite registrar usuarios con un número de identificación y una contraseña, y una vez un usuario esté registrado podrá:
 
-* Solicitar un código QR que ser usado como medio de acceso al parqueadero.
+* Solicitar un código QR que puede ser usado como medio de acceso al parqueadero. Los códigos QR son temporales y pueden ser usados sólo en la fecha que son generados,
 * Enviar un código QR para determinar si existe un puesto de parqueadero disponible según el rol del usuario.
 
-El código para la generación y encriptación de los códigos QR se incluye en el archivo [users.py](users.py), por lo que es importante que se analice y se comprenda su funcionamiento. Además, se debe incluir en el archivo [users.py](users.py) el algoritmo para detección de puestos de parqueadero elaborado en el lab1.
+El código para la generación y encriptación de los códigos QR se incluye en el archivo [users.py](users.py), por lo que es importante que se analice y se comprenda su funcionamiento. Además, se debe incluir en el archivo [users.py](users.py) el algoritmo para detección de puestos de parqueadero creado en el lab1.
 
 De otro lado, se suministran los archivos [parking_client.py](parking_client.py) y [test_parking_client.py](test_parking_client.py). En este caso, [parking_client.py](parking_client.py) implementa la funcionalidad básica de los usuarios para la conexión con el servidor por lo que **no debe ser modificado bajo ninguna circunstancia**. De otro lado, [test_parking_client.py](test_parking_client.py) es un archivo de prueba que se suministra para verificar el correcto funcionamiento del servidor y que puede ser modificado a gusto de los miembros del equipo. Para que [parking_client.py](parking_client.py) pueda funcionar correctamente se debe instalar el módulo de Python requests ejecutando el siguiente comando en una terminal:
 
