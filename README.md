@@ -19,7 +19,7 @@ En ese sentido, esta parte del proyecto contempla la creación y prueba de funci
 
 Se suministra el código base del servidor en el archivo [parking_server.py](parking_server.py) el cual contiene toda la funcionalidad para que éste opere dentro de una red de área local o en el mismo equipo de prueba. **Este archivo no debe ser modificado bajo ninguna circunstancia**.
 
-En ese sentido, el archivo [parking_server.py](parking_server.py) usa el archivo [users.py](users.py) que incluye definiciones de funciones las cuales deben ser implementadas o complementadas como parte de esta parte del proyecto de acuerdo a lo descrito en los comentarios del archivo. **La implementación de estas funciones y su correcto funcionamiento determina la evaluación del lado del servidor del proyecto**.
+En ese sentido, el archivo [parking_server.py](parking_server.py) usa el archivo [users.py](users.py) que incluye definiciones de funciones las cuales deben ser implementadas o complementadas como parte de esta entrega del proyecto de acuerdo a lo descrito en los comentarios del archivo. **La implementación de estas funciones y su correcto funcionamiento determina la evaluación del lado del servidor del proyecto**.
 
 El servidor permite registrar usuarios con un número de identificación y una contraseña, y una vez un usuario esté registrado podrá:
 
