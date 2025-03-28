@@ -1,5 +1,5 @@
 <h1 align="center">
-Entrega: Servidor del Sistema de Administración de Parqueadero (RA 1, RA 3 y RA 4) <br />
+Entrega: Servidor del Sistema de Administración de Parqueadero (RA 1, RA 2, RA 3 y RA 4) <br />
  </h1>
  <p align="center">
 Alexander López-Parrado, PhD. <br />
